@@ -46,9 +46,18 @@ body {
   color:white;
   width:105px;
   height:105px;
-align-items:center;
+  align-items:center;
   justify-content:center;
 
+}
+.lildesignButt {
+  display:flex;
+  border-radius:50%;
+  color:black;
+  width:18px;
+  height:18px;
+  align-items:center;
+  justify-content:center;
 }
 .redButt {
   background-color: var(--kinda-red-color);
@@ -61,4 +70,12 @@ align-items:center;
 }
 .blueButt {
   background-color:var(--kinda-blue-color);
+}
+.card1{
+  background-color: var(--kinda-grey-color);
+  border: none;
+}
+.appleImage{
+  height: 176px;
+  width: 265px;
 }
