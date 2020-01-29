@@ -1,0 +1,21 @@
+* {
+  --kinda-red-color:#E6563B;
+  --kinda-orange-color:#EB9D3A;
+  --kinda-green-color:#7CB06C;
+  --kinda-blue-color:#00ABA9;
+  --kinda-white-color:#f0f0f0;
+  --kinda-grey-color:#E6E6E6;
+}
+
+/*
+Fonts from
+font-family: 'Anton', sans-serif;
+font-family: 'Abel', sans-serif;
+ */
+
+.header-font {
+  font-family: 'Anton', sans-serif;
+}
+.subHeader-font {
+  font-family: 'Abel', sans-serif;
+}
