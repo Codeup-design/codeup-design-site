@@ -28,8 +28,15 @@ font-family: 'Anton', sans-serif;
 font-family: 'Abel', sans-serif;
  */
 body {
-  background-color:var(--kinda-grey-color);
+  background-color:var(--kinda-white-color);
 }
+.logo{
+  height: 105px;
+  width: 105px;
+}
+/*.navdiv{*/
+/*  background-color: white;*/
+/*}*/
 .header-font {
   font-family: 'Anton', sans-serif;
 }
@@ -75,7 +82,13 @@ body {
   background-color: var(--kinda-grey-color);
   border: none;
 }
-.appleImage{
-  height: 176px;
-  width: 265px;
+.my-image{
+  background-color: var(--kinda-grey-color);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.my-card{
+  background-color: var(--kinda-white-color);
+  border: none
+;
 }
