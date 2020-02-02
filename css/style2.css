@@ -10,19 +10,15 @@
 h1 {
     line-height: 64px;
 }
-
 h2 {
     line-height: 48px;
 }
-
 h3 {
     line-height: 40px;
 }
-
 h4 {
     line-height: 32px;
 }
-
 h5 {
     line-height: 28px;
 }
@@ -41,12 +37,10 @@ body {
 p {
     font-family: 'Abel', sans-serif;
 }
-
 .header-font {
     font-family: 'Anton', sans-serif;
     color: black;
 }
-
 .subHeader-font {
     font-family: 'Abel', sans-serif;
     color: black;
@@ -80,69 +74,66 @@ p {
 .redButt {
     background-color: var(--kinda-red-color);
 }
-
 .orangeButt {
     background-color: var(--kinda-orange-color);
 }
-
 .greenButt {
     background-color: var(--kinda-green-color);
 }
-
 .blueButt {
     background-color: var(--kinda-blue-color);
 }
 
-.card1 {
-    background-color: var(--kinda-grey-color);
-    border: none;
-}
-
 .my-image {
     background-color: var(--kinda-grey-color);
-}
-
-.my-card {
-    background-color: var(--kinda-white-color);
-    border: none;
+    padding: 5px 5px;
 }
 
 .bg-logo {
     height:56px;
 }
 
-/*.img-fix {*/
-/*    position: relative;*/
-/*    bottom: 25px;*/
-/*}*/
 .link-fix {
     color:rgba(0,0,0,.5); ;
 }
 
-/*@include media-breakpoint-up(sm) {*/
-/*    .center-fix {*/
-/*        justify-content: center;*/
-/*    }*/
-/*}*/
-/*@include media-breakpoint-up(md) {*/
-/*    .center-fix {*/
-/*        display: flex;*/
-/*        justify-content: center;*/
-/*    }*/
-/*}*/
-
-
 .my-card{
-    background-color: var(--kinda-white-color);
-    border: none;
     font-size: 0.9em;
 }
-/*.card1{*/
-/*    background-color: var(--kinda-grey-color);*/
-/*    border: none;*/
-/*}*/
-
 
 .tweet-color {
     color:#1DA1F2;
+}
+
+#theLastSection{
+    /*background-color: lightseagreen;*/
+}
+#selectedWorkSection{
+    /*background-color: #1DA1F2;*/
+}
+#lowerHalfSection{
+    /*background-color: red;*/
+}
+.row{
+    margin: 0;
+}
+
+.lilimage{
+    height: 50px;
+    border: 1px var(--kinda-grey-color) solid;
+}
+.imagediv{
+
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+}
+.header4{
+    margin: 0 0 0 10px;
+}
+i{
+    margin-bottom: 10px;
+}
+#ButtContainer{
+   width: 540px;
 }
